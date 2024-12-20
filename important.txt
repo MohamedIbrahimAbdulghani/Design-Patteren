@@ -1,0 +1,10 @@
+1 - AbstractFactory  =>  بستخدمه لما اكون عايز الم او اجمع كل الحاجات اللي ليها علاقه ببعض في مكان واحد بمعني لو عندي اكتر من كلاس والكلاسات دي بتعمل نفس الحاجه مثلا بتعمل انشاء لحاجه معينه بستخدم النوع ده علشان اجمعهم كلهم في ملف واحد واقدر استخدمه في اي وقت لو عايز اعمل انشاء لحاجه جديده
+
+-- use it to create series of related or dependent objects without specifying their blueprint classes . usually the created classes all implement the same interface
+
+
+
+
+2 - Builder   =>  وعملية انشائه الفعلية object معقدة وفيها تفاصيل كتير ف انا عايز افصل بين طريقة انشاء هذا ال  objects  بستخدمه لما اكون 
+
+-- the intent of the Builder design pattern is to separate the construction of a complex object from its representation by doing so the same  construction process can create different representations
