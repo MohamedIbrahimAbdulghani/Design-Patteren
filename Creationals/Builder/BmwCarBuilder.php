@@ -7,17 +7,17 @@ class BmwCarBuilder implements CarBuilderInterface {
     public function createCar() {
         $this->type = new BmwCar();
     }
+    public function addBody() {
+        $this->type->setPart('BODY', 'bmw-body');
+    }
     public function addEngine() {
-        $this->type->setPart('BM - ENGINE', 'bm - engine');
+        $this->type->setPart('ENGINE', 'bmw-engine');
     }
     public function addDoor() {
-        $this->type->setPart('BM -DOOR', 'bm - door');
-    }
-    public function addBody() {
-        $this->type->setPart('BM - BODY', 'bm - body');
+        $this->type->setPart('DOOR', 'bmw-door');
     }
     public function addWheel() {
-        $this->type->setPart('BM - WHEEL', 'bm - wheel');
+        $this->type->setPart('WHEEL', 'bmw-wheel');
     }
     public function getCar() {
         return $this->type;
