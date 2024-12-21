@@ -3,8 +3,12 @@
 -- use it to create series of related or dependent objects without specifying their blueprint classes . usually the created classes all implement the same interface
 
 
-
+/***********************************************************************************************************************************************************************/
 
 2 - Builder   =>  وعملية انشائه الفعلية object معقدة وفيها تفاصيل كتير ف انا عايز افصل بين طريقة انشاء هذا ال  objects  بستخدمه لما اكون 
 
 -- the intent of the Builder design pattern is to separate the construction of a complex object from its representation by doing so the same  construction process can create different representations
+
+/***********************************************************************************************************************************************************************/
+
+3 - Factory Methods   =>   
