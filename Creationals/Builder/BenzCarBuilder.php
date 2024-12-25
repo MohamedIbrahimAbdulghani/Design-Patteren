@@ -2,6 +2,8 @@
 
 namespace Creationals\Builder;
 
+use Creationals\Builder\Models\BenzCar;
+
 class BenzCarBuilder implements CarBuilderInterface {
     private $type;
     public function createCar() {
