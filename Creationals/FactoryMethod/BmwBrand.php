@@ -1,10 +1,9 @@
 <?php
 
-namespace Creationals\FactroyMethod;
+namespace Creationals\FactoryMethod;
 
-class BmwBrand implements CarBuildInterface {
-    public function createBrand()
-    {
+class BMWBrand implements CarBrandInterface {
+    public function createBrand() {
         return "BMW Brand";
     }
 }

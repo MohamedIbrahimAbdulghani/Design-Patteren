@@ -1,6 +1,6 @@
 <?php
 
-namespace Creationals\FactroyMethod;
+namespace Creationals\FactoryMethod\BuildFactory;
 
 
 interface BrandFactoryInterface {

@@ -2,17 +2,17 @@
 
 namespace Tests;
 
-use Creationals\FactroyMethod\BmwBrand;
-use Creationals\FactroyMethod\BmwBrandFactory;
-use Creationals\FactroyMethod\BenzBrand;
-use Creationals\FactroyMethod\BenzBrandFactory;
+use Creationals\FactoryMethod\BenzBrand;
+use Creationals\FactoryMethod\BMWBrand;
+use Creationals\FactoryMethod\BuildFactory\BMWBrandFactory;
+use Creationals\FactoryMethod\BuildFactory\BenzBrandFactory;
 use PHPUnit\Framework\TestCase;
 
 class FactoryMethodTest extends TestCase {
-    public function testCanBuildBmwBrand() {
-        $brandFactory = new BmwBrandFactory();
+    public function testCanBuildBMWBrand() {
+        $brandFactory = new BMWBrandFactory();
         $myBrand = $brandFactory->BuildBrand();
-        $this->assertInstanceOf(BmwBrand::class, $myBrand);
+        $this->assertInstanceOf(BMWBrand::class, $myBrand);
     }
 
     public function testCanBuildBenzBrand() {
