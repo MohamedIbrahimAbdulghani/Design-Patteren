@@ -23,3 +23,8 @@
 
 
 /***********************************************************************************************************************************************************************/
+
+
+4 - POOL     =>  اللي جاهزة للاستخدام objects دة عبارة عن مجموعة من ال 
+
+-- uses a set initialized objects kept ready to use a client of the pool will request an object from the pool and perform operations on the returned object.  when the client has finished, it returns the object, which is a specific type of factory object, to the pool rather than destroying it.
