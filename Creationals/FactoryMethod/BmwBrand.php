@@ -2,8 +2,10 @@
 
 namespace Creationals\FactoryMethod;
 
+
 class BMWBrand implements CarBrandInterface {
-    public function createBrand() {
+    public function createBrand()
+    {
         return "BMW Brand";
     }
 }

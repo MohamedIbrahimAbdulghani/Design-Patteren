@@ -1,5 +1,5 @@
 /*
-    * to run or to make this test write this code in terminal ( vendor/bin/phpunit FolderName/FileName )
+    * to run or to make this test write this code in terminal ( vendor/bin/phpunit FolderName/FileName.php )
 */
 
 1 - AbstractFactory  =>  بستخدمه لما اكون عايز الم او اجمع كل الحاجات اللي ليها علاقه ببعض في مكان واحد بمعني لو عندي اكتر من كلاس والكلاسات دي بتعمل نفس الحاجه مثلا بتعمل انشاء لحاجه معينه بستخدم النوع ده علشان اجمعهم كلهم في ملف واحد واقدر استخدمه في اي وقت لو عايز اعمل انشاء لحاجه جديده
@@ -17,7 +17,11 @@
 /***********************************************************************************************************************************************************************/
 
 
-3 - Factory Methods   => ده interface لل  implements اللي هتعمل  classes لل  object بكون عايز اعمل  interface هو عبارة عن  
+3 - Factory Methods   => ده interface لل  implements اللي هتعمل  classes لل  object بستخدمة لما بكون عايز اعمل  interface هو عبارة عن  
+
+    Factory Method  =>  instants اللي هتعمل منه  class ولكن من غير ماتحدد ال  object باختصار هو طريقة عمل ال
+
+    Factory Method  => interface بتاعه عامل اذاي وده عن طريق ال  implementation من غير ما تحدد ال   object باختصار هو انك بتحدد طريقة  عمل ال
 
 -- factory pattern is one of the most used design patterns define an interface for creating an object, but let subclasses decide which class to instantiate . Factory method lets a class defer instantiation to subclasses
 
