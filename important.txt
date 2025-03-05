@@ -25,3 +25,6 @@
 
 -- factory pattern is one of the most used design patterns define an interface for creating an object, but let subclasses decide which class to instantiate . Factory method lets a class defer instantiation to subclasses
 
+4 - Simple Factory  => objct لانشاء ال  new اللي انت عايزه ومش لازم تكتب كلمة  object هو اللي بيعمل انشاء لل  class الهدف منه ان ال  obect هو ابسط شكل تقدر تعمل من خلاله 
+
+-- in this pattern, a class simple creates the object you want to use, This allows interfaces for creating objects without exposing the object creation logic to the client you can consider this is simple other way from using "new"
