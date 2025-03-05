@@ -28,3 +28,10 @@
 4 - Simple Factory  => objct لانشاء ال  new اللي انت عايزه ومش لازم تكتب كلمة  object هو اللي بيعمل انشاء لل  class الهدف منه ان ال  obect هو ابسط شكل تقدر تعمل من خلاله 
 
 -- in this pattern, a class simple creates the object you want to use, This allows interfaces for creating objects without exposing the object creation logic to the client you can consider this is simple other way from using "new"
+
+
+5 - Static Factory  => اللي ممكن هو يعملها انشاء objects وبتقوم عامله انشاء لكل انواع ال  static واحدة بس بتعرفها علي اساس انها  function بتقدر من خلاله تستخدم 
+
+ ؟؟ abstract factory & static factory س : ماهو الفرق بين ال 
+  لكل نوع عندك functions كنت بتعمل من خلاله  abstract factory اللي ممكن تعملها انشاء علي عكس ال  objects وبالتالي بتقدر تعمل انشاء لكل انواع ال  static funciton واحده بس بتعرفها علي اساس انها  function بتبقي عباره عن  abstract factiry  ج : الفرق ان ال 
+-- Similar to the AbstractFactory, This pattern is used to create series of related or dependent objects . The difference between this and the abstract factory pattern is that the static factory pattern uses just one static method to create all types of objects it can create . It is usually named factory or build. 
