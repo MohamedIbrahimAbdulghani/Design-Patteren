@@ -53,3 +53,11 @@
     A class simply creates the object you want to use, This allows interfaces for creating objects without exposing the objct creation logic to the client .
 
 /******************************************    Factory Patterns Variation  ******************************************/
+
+
+5 - Observer Pattern  ==> ان فيه حاجه حصلت notifications يتعملهم  object  بتستخدمه في حالة ان تعمل ل اكتر من 
+
+    -- دي عارفه باللي حصل objects ده يحصل يقوم كل ال  event معين اول مايحصل ال  event بمعني انت لما تعمل 
+
+-- is a behavioral desgin pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they're observing.
+    To implement a publish / subscribe behaviour to an object, wheneven a "subject" object changes its state, the attached "Observes" will be notified . It is used shorten the amount coupled objects and uses loose coupling instead.
